@@ -34,7 +34,7 @@ class Repository {
             return studentDatabase!!.studentDao().getStudent()
         }
 
-
+/*
         fun getStudentName(context: Context, name: String): LiveData<List<Student>>? {
 
             studentDatabase = initializeDB(context)
@@ -55,5 +55,7 @@ class Repository {
 
             return studentDatabase!!.studentDao().getStudentByNote2(nota)
         }
+
+ */
     }
 }
