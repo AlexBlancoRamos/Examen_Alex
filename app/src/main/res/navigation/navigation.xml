@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/insertFragment">
+
+    <fragment
+        android:id="@+id/insertFragment"
+        android:name="com.alexblanco.examen_alex.insert.InsertFragment"
+        android:label="InsertFragment" />
+    <fragment
+        android:id="@+id/mostraFragment"
+        android:name="com.alexblanco.examen_alex.MostraFragment"
+        android:label="fragment_mostra"
+        tools:layout="@layout/fragment_mostra" />
+</navigation>
